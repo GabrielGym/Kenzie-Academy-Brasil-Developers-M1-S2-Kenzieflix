@@ -48,6 +48,31 @@
     color: #ffffff;
 }
 
+.sectionCards_add {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 160px;
+    align-items:center;
+    background-color: rgb(40, 40, 40);
+    border-radius: 4px;
+    color: grey;
+}
+
+.sectionCards_add:hover{
+    border: 1px solid white;
+    color: white;
+}
+
+.imgCards_add{
+    display: flex;
+    margin-top: 50px;
+}
+
+.textCard_add{
+    margin-top: 64px;
+}
+
 .imgCards{
     height: 100%;
     width: 100%;
